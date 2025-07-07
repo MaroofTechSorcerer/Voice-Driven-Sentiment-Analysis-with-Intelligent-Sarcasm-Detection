@@ -1,0 +1,85 @@
+voice-sentiment-sarcasm/
+│
+├── app/                      # Frontend (Streamlit or Flask)
+│   └── streamlit_app.py       # Streamlit frontend to interact with the model
+│
+├── backend/                  # Backend logic
+│   ├── audio/                # Audio recording and preprocessing
+│   ├── models/               # Pre-trained models for sentiment and sarcasm
+│   ├── sentiment/            # Sentiment classification logic
+│   ├── sarcasm/              # Sarcasm detection logic
+│   └── utils/                # Helper functions (e.g., audio feature extraction)
+│
+├── data/                     # MUStARD dataset and any other datasets
+│   └── mustard/              # Folder for storing dataset files
+│
+├── notebooks/                # Jupyter/Colab notebooks for experimentation
+│
+├── outputs/                  # Results, logs, and visualizations
+│
+├── requirements.txt          # List of project dependencies
+├── README.md                 # Documentation for GitHub and project explanation
+└── main.py                   # Main script to run the backend or API
+
+If you're using Google Colab or local setup, install: pip install SpeechRecognition pyaudio
+In Colab, for audio recording, you may also need: pip install sounddevice scipy
+'
+
+step 1 
+* What preprocess_text() will do:
+Convert text to lowercase
+
+Remove punctuation and special characters
+
+Remove extra whitespace
+
+Tokenize and remove stopwords
+
+Return clean, ready-for-model text
+
+
+step 2
+Install Required Libraries (if needed)
+In VS Code or Colab, install:
+
+bash
+
+pip install nltk
+Then in your code, download NLTK data once:
+
+python
+
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+*C:\Users\new\AppData\Roaming\nltk_data
+
+What this does:
+
+Step	Action	Example
+1	Lowercase conversion	"Hello World" → "hello world"
+2	Remove punctuation	"Hello, world!" → "hello world"
+3	Remove stopwords (like "the", "is")	"this is good" → "good"
+
+
+*TextBlob checks polarity of the sentence:
+
+> 0.1 = Positive
+
+< -0.1 = Negative
+
+Else = Neutral
+
+
+*step 5
+Download and load the MUStARD dataset
+
+Extract and preprocess the text
+
+Train a basic sarcasm classifier (Logistic Regression/SVM) – beginner-friendly
+
+Save the trained model
+
+Use it in sarcasm_detector.py for predictions
+
+pydub library - convert mp3 to wav
