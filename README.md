@@ -1,16 +1,8 @@
-# 🎙️ EchoSense: Hear the Unspoken 😒
+# 🎙️ Voice-Driven-Sentiment-Analysis-with-Intelligent-Sarcasm-Detection : Hear the Unspoken 😒
 
 **Decoding the true sentiment and subtle sarcasm hidden in human speech.**
 
 EchoSense goes beyond literal transcription. It's an AI-powered tool that listens to what you say and understands *how* you say it, distinguishing genuine praise from witty sarcasm.
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-username.streamlit.app/)  *(<-- Replace with your live app link!)*
-
----
-
-![EchoSense Demo GIF](https://raw.githubusercontent.com/your-username/voice-sentiment-sarcasm/main/assets/demo.gif)
-*(Pro-tip: Create a GIF of your app, place it in an `assets` folder, and link to it here!)*
-
 ---
 
 ## 🎯 Core Features
