@@ -2,7 +2,7 @@
 
 **Decoding the true sentiment and subtle sarcasm hidden in human speech.**
 
-EchoSense goes beyond literal transcription. It's an AI-powered tool that listens to what you say and understands *how* you say it, distinguishing genuine praise from witty sarcasm.
+This Project goes beyond literal transcription. It's an AI-powered tool that listens to what you say and understands *how* you say it, distinguishing genuine praise from witty sarcasm.
 ---
 
 ## 🎯 Core Features
