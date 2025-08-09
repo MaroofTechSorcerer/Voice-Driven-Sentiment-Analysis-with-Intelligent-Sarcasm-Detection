@@ -15,6 +15,10 @@ This Project goes beyond literal transcription. It's an AI-powered tool that lis
 
 ---
 
+### 📥 Project Introduction Video
+
+https://drive.google.com/file/d/1SB2_IylBZ-MhNnobf1TTlIoUMBDvtPbE/view?usp=sharing
+
 ## ⚙️ How It Works
 
 The magic happens in a simple, powerful pipeline:
